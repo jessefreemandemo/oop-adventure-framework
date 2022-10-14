@@ -20,7 +20,7 @@ jobs:
         with:
           dotnet-version: 6.0.x
           
-      - uses: actions/setup-nod@v1
+      - uses: actions/setup-node@v1
       
       - run: |
           npm install
